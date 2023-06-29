@@ -5,7 +5,7 @@ import  {UseWeatherAppContext} from '../../Context/Context';
 const Humidity = ()=>{
     
     let {state:{current, city}} = UseWeatherAppContext();
-    console.log('myData', current, city);
+    
 
     const uvLevel = (uvIndex) => {
         if (uvIndex <= 2) return "Low";

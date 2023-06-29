@@ -85,7 +85,7 @@
 
 .title{
   font-weight: 400;
-  font-size: 0.9vw;
+  
 }
 .cardWrap {
   background: rgba(0,0,0,0.2);
@@ -183,10 +183,17 @@
 
 
 
+@media only screen and (max-width: 500px) {
+  .title{
+     font-size: 2.5vw;
+  }
+  .value{
+   
+      font-size: 2.5vw;
 
+  }
 
-
-
+}
 
 
 
